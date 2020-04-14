@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: test
+---
+spring:
+  profiles: test
+  application:
+    name: config-test
+
+server:
+  port:9101
+---
+spring:
+  profiles: prod
+  application:
+    name: config-prod
+
+server:
+  port:9102
