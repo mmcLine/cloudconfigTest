@@ -1,7 +1,10 @@
 spring:
   profiles:
     active: test
+    
+ordernotiry: true
 ---
+
 spring:
   profiles: test
   application:
