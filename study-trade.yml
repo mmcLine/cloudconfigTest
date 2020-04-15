@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: prod
+---
+spring:
+  profiles: test
+  application:
+    name: config-test
+
+server:
+  port:8006
+---
+spring:
+  profiles: prod
+  application:
+    name: config-prod
+
+server:
+  port:8007
