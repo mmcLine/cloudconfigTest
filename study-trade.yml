@@ -3,6 +3,7 @@ spring:
     active: test
     
 ordernotiry: false
+loginpass: '{cipher}941c15446567e8211931cf0d25f81696871f5a5ea74fac46638eed71db24e76b'
 ---
 
 spring:
