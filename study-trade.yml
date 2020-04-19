@@ -9,7 +9,7 @@ loginpass: '{cipher}941c15446567e8211931cf0d25f81696871f5a5ea74fac46638eed71db24
 spring:
   profiles: test
   application:
-    name: config-test
+    name: study-trade1
 
 server:
   port:8006
@@ -17,7 +17,7 @@ server:
 spring:
   profiles: prod
   application:
-    name: config-prod
+    name: study-trade2
 
 server:
   port:8007
