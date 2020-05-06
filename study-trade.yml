@@ -12,7 +12,7 @@ spring:
     name: study-trade
 
 server:
-  port:8006
+  port:8007
 ---
 spring:
   profiles: prod
@@ -20,4 +20,4 @@ spring:
     name: study-trade
 
 server:
-  port:8007
+  port:8008
